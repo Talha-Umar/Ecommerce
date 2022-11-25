@@ -1,0 +1,159 @@
+.menucirlef{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.menucirlef:hover{
+  width: 190px;
+}
+.menucirlef .menuiconf{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 20px;
+  transition: all 0.3s ease-out;
+}
+.footernav .navitem:nth-child(1) .menucirlef> .menuiconf{
+  background: #4267B2;
+}
+.footernav .navitem:nth-child(2) .menucirlef> .menuiconf{
+  background: #1DA1F2;
+}
+.footernav .navitem:nth-child(3) .menucirlef> .menuiconf{
+  background: #E1306C;
+}
+/*.footernav .navitem:nth-child(4) .menucirlef> .menuiconf{
+  background: #4285f4;
+}*/
+.footernav .navitem:nth-child(4) .menucirlef> .menuiconf{
+  background: #ff0000;
+}
+.footernav .navitem:nth-child(5) .menucirlef> .menuiconf{
+  background: #25d366;
+}
+.footernav .navitem:nth-child(6) .menucirlef> .menuiconf{
+  background: #ffb903;
+}
+
+
+ .menucirlef .menuiconf i{
+  font-size: 20px;
+  line-height: 30px;
+  transition: all 0.3s ease-out;
+  color: white;
+}
+.menucirlef:hover .menuiconf i{
+  color: #fff;
+}
+ .menucirlef span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.footernav .navitem:nth-child(1) .menucirlef> span{
+  color: #4267B2;
+}
+.footernav .navitem:nth-child(2) .menucirlef> span{
+  color: #1DA1F2;
+}
+.footernav .navitem:nth-child(3) .menucirlef> span{
+  color: #E1306C;
+}
+.footernav .navitem:nth-child(4) .menucirlef> span{
+  color: #ff0000;
+}
+.footernav .navitem:nth-child(5) .menucirlef> span{
+  color: #25d366;
+}
+.footernav .navitem:nth-child(6) .menucirlef> span{
+  color: #ffb903;
+}
+.menuiconf{
+  padding: 9px;
+}
+.navlink{
+  text-decoration: none !important;
+}
+@media screen and (max-width: 991px){
+.menucirlef {
+    width: 100% !important;
+}
+}
+
+
+.fmenucirle .fmenuicon i{
+  color: white;
+}
+.fmenucirle:hover{
+  width: 260px;
+}
+.footernav1 .navitem1:nth-child(1) .fmenucirle> .fmenuicon{
+  background: #4267B2;
+}
+.footernav1 .navitem1:nth-child(2) .fmenucirle> .fmenuicon{
+  background: #1DA1F2;
+}
+.footernav1 .navitem1:nth-child(3) .fmenucirle> .fmenuicon{
+  background: #E1306C;
+}
+.footernav1 .navitem1:nth-child(4) .fmenucirle> .fmenuicon{
+  background: #ff0000;
+}
+.footernav1 .navitem1:nth-child(5) .fmenucirle> .fmenuicon{
+  background: #25d366;
+}
+.footernav1 .navitem1:nth-child(6) .fmenucirle> .fmenuicon{
+  background: #ffb903;
+}
+
+.footernav1 .navitem1:nth-child(1):hover .fmenucirle> .fmenuicon{
+  background: #4267B2;
+}
+.footernav1 .navitem1:nth-child(2):hover .fmenucirle> .fmenuicon{
+  background: #1DA1F2;
+}
+.footernav1 .navitem1:nth-child(3):hover .fmenucirle> .fmenuicon{
+  background: #E1306C;
+}
+.footernav1 .navitem1:nth-child(4):hover .fmenucirle> .fmenuicon{
+  background: #ff0000;
+}
+.footernav1 .navitem1:nth-child(5):hover .fmenucirle> .fmenuicon{
+  background: #25d366;
+}
+.footernav1 .navitem1:nth-child(6):hover .fmenucirle> .fmenuicon{
+  background: #ffb903;
+}
+
+.footernav1 .navitem1:nth-child(1) .fmenucirle> span{
+  color: #4267B2;
+}
+.footernav1 .navitem1:nth-child(2) .fmenucirle> span{
+  color: #1DA1F2;
+}
+.footernav1 .navitem1:nth-child(3) .fmenucirle> span{
+  color: #E1306C;
+}
+
+.footernav1 .navitem1:nth-child(4) .fmenucirle> span{
+  color: #ff0000;
+}
+.footernav1 .navitem1:nth-child(5) .fmenucirle> span{
+  color: #25d366;
+}
+.footernav1 .navitem1:nth-child(6) .fmenucirle> span{
+  color: #ffb903;
+}

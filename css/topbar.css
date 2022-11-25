@@ -1,0 +1,89 @@
+.menucirle{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.menucirle:hover{
+  width: 200px;
+}
+.menucirle .menuicon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 20px;
+  transition: all 0.3s ease-out;
+}
+.navbar-nav .nav-item:nth-child(1):hover .menucirle> .menuicon{
+  background: #4267B2;
+}
+.navbar-nav .nav-item:nth-child(2):hover .menucirle> .menuicon{
+  background: #4267B2;
+}
+.navbar-nav .nav-item:nth-child(3):hover .menucirle> .menuicon{
+  background: #4267B2;
+}
+.navbar-nav .nav-item:nth-child(4):hover .menucirle> .menuicon{
+  background: #4267B2;
+}
+.navbar-nav .nav-item:nth-child(5):hover .menucirle> .menuicon{
+  background: #4267B2;
+}
+.navbar-nav .nav-item:nth-child(6):hover .menucirle> .menuicon{
+  background: #4267B2;
+}
+.navbar-nav .nav-item:nth-child(7):hover .menucirle> .menuicon{
+  background: #2AF711;
+}
+
+
+ .menucirle .menuicon i{
+  font-size: 35px;
+  line-height: 40px;
+  transition: all 0.3s ease-out;
+  color: black;
+}
+.menucirle:hover .menuicon i{
+  color: #fff;
+}
+ .menucirle span{
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+ .navbar-nav .nav-item:nth-child(1) .menucirle>span{
+  color: #4267B2;
+}
+ .navbar-nav .nav-item:nth-child(2) .menucirle>span{
+  color: #4267B2;
+}
+ .navbar-nav .nav-item:nth-child(3) .menucirle>span{
+  color: #4267B2;
+}
+.navbar-nav .nav-item:nth-child(4) .menucirle>span{
+  color: #4267B2;
+}
+.navbar-nav .nav-item:nth-child(5) .menucirle>span{
+  color: #4267B2;
+}
+.navbar-nav .nav-item:nth-child(6) .menucirle>span{
+  color: #4267B2;
+}
+.navbar-nav .nav-item:nth-child(7) .menucirle>span{
+  color: #2AF711;
+}
+.menuicon{
+  padding: 9px;
+}
